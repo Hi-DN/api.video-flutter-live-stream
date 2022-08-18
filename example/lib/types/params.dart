@@ -30,8 +30,8 @@ class Params {
   final VideoConfig video = VideoConfig.withDefaultBitrate();
   final AudioConfig audio = AudioConfig();
 
-  String rtmpUrl = "rtmp://broadcast.api.video/s/";
-  String streamKey = "";
+  String rtmpUrl = "rtmp://54.180.150.176/live";
+  String streamKey = "hi-dn";
 
   String getResolutionToString() {
     return video.resolution.toPrettyString();
